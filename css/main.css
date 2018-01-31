@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  position: relative;
+}
+/*Navigation section*/
+/*LEFT SIDE*/
+.navbar {
+	background-color: #FE7E00;
+}
+.navbar {
+  position: relative;
+}
+/*logo needs to go on the right side of the logoslice image*/
+.orange,.center-links {
+	/*gets words to align with the element aove/ next to it*/
+display: inline-block;
+color: white;
+}
+#logo {
+  position: absolute;
+  /*padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;*/
+  /*padding: 20px;
+  width: 600px;
+  resize:both;
+  overflow:auto;*/ 
+}
+.orange {
+  position: relative;
+  margin-left: 5px;
+  left: -10;
+ left: -10;
+}
+.logo {
+    padding-left: 75px;
+    /*margin-top: -50;
+    margin-top: -15;
+    margin-top: -50;*/
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  h3 {
+    margin:0 auto;
+  }
+
+span {
+  font-size: 42px;
+}
+/*RIGHT SIDE*/
+/*why is this not working right??...*/
+
+.center-links {
+  float: right;
+  font-size: 16px;
+  font-family: "Ariel", Times, serif;
+  padding-right: 20px;
+  padding-left: 100px;
+  margin: 10px 15px 10px;
+  list-style: none;
+  text-decoration: none;
+
+}
+/*add a rule just for the li*/
+li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*input bar*/
+form {
+  position: relative;
+}
+input[type=search] {
+    float: right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-position: 10px 10px; */
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+i {
+  position: absolute;
+  right: 0;
+  padding-top: 12px;
+  padding-right: 6px;
+}
+/*MID PAGE*/
+.mid {
+  /*text-align: center;*/
+  display: inline-block;
+  margin: auto 0;
+}
+/*add margins to the image to give it space from p element*/
+.orange {
+  margin-right: 55px; 
+  margin-left: 60px;
+
+}
+.paragraph {
+ float: right;
+ display: inline-block;
+  text-align: center;
+ margin-top:120px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+
+}
+span {
+color:#FE7E00;
+  font-weight:bold;
+}
+
+.bluespan {
+  color: #78CDC6;
+  
+}
+.b1 {
+  background-color: #FE7E00;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.botnav {
+  background-color: #78CDC6
+}
+.b2 {
+  background-color: #78CDC6;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+   padding-right: 30px;
+  padding-left: 30px;
+}
+
+.botnav {
+  color: #78CDC6;
+}
+
+.botnav{
+  position: relative;
+  height: 63px;
+  margin-top: 86px;
+  margin-bottom: 0 auto;
+
+}
+footer {
+  position: absolute;
+  top: 90%;
+}
+
+@media screen and (max-width:500px) {
+}
